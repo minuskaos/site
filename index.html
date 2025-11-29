@@ -1,29 +1,51 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Invite</title>
-  <meta name="description" content="Invite" />
-  <meta name="keywords" content="website keywords, website keywords" />
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <link rel="stylesheet" type="text/css" href="http://invite.mynetgear.com/style/style.css" title="style" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Down for Maintenance</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 500px;
+      line-height: 1.5;
+    }
+    .spinner {
+      margin-top: 2rem;
+      width: 40px;
+      height: 40px;
+      border: 4px solid #555;
+      border-top: 4px solid #4caf50;
+      border-radius: 50%;
+      animation: spin 1s infinite linear;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
 </head>
-
 <body>
 
+  <h1>Down for Maintenance</h1>
+  <p>We are performing scheduled updates. The site will be back shortly. Thanks for your patience.</p>
+  <div class="spinner"></div>
 
-
-
- 
-
-<embed src="http://invite.mynetgear.com/invite/?code=G4M6I2" 
-style="border:none"
-height="600"
-width="100%">
-</iframe>
-
-
-
-
- </body>
- </html>
+</body>
+</html>
